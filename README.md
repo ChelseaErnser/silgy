@@ -1,5 +1,13 @@
-## Silgy
+This package contains simplified MD code with multi-threading
+parallelization for simulating atoms with a Lennard-Jones potential.
 
-If you're starting a new project, [Node++](https://github.com/rekmus/nodepp) is now recommended.
+The bundled makefiles are set up to compile the executable once
+with OpenMP disabled and once with OpenMP enabled with each build
+placing the various object files in separate directories.
 
-Please bear in mind that this Silgy repo is treated as deprecated and any new project should use [Node++](https://github.com/rekmus/nodepp) instead. Node++ is a direct Silgy's successor with numerous improvements and enhancements.
+The examples directory contains 3 sets of example input decks
+and the reference directory the corresponding outputs.
+
+Type: make
+to compile everything and: make clean
+to remove all compiled objects
