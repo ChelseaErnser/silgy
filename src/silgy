@@ -1,5 +1,0 @@
-#!/bin/sh
-
-export SILGYDIR=..
-
-$SILGYDIR/bin/silgy_app 8080
